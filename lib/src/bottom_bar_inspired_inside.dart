@@ -1,4 +1,4 @@
-import 'package:awesome_bottom_bar/widgets/inspired/inspired.dart';
+import '../widgets/inspired/inspired.dart';
 import 'package:flutter/material.dart';
 import '../chip_style.dart';
 import '../count_style.dart';
@@ -58,7 +58,8 @@ class BottomBarInspiredInside extends StatefulWidget {
   }) : super(key: key);
 
   @override
-  _BottomBarInspiredInsideState createState() => _BottomBarInspiredInsideState();
+  _BottomBarInspiredInsideState createState() =>
+      _BottomBarInspiredInsideState();
 }
 
 class _BottomBarInspiredInsideState extends State<BottomBarInspiredInside> {
